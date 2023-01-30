@@ -11,7 +11,7 @@ interface INavLinks {
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  styleUrls: ['./nav.component.sass', '../../../../assets/font-icons.css']
 })
 export class NavComponent {
   @Input() expand: boolean = false;

@@ -1,0 +1,83 @@
+.form-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #e6eef1;
+}
+
+.form-body-section {
+  overflow: hidden auto;
+  flex: 1 0;
+  padding: 1rem 24px;
+}
+.form-body-section > h2 {
+  margin-bottom: 7px;
+}
+.form-body-section > p {
+  margin: 0;
+  font-size: 14px;
+  color: #808080;
+}
+
+.form-form-cpf label {
+  width: 100%;
+}
+
+.form-input {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.form-h3 {
+  margin: 1rem 0 3px 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.form-input-text {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.form-button {
+  max-height: 31px;
+  padding: 7px 16px;
+  border: 1px solid #005c7f;
+  background: #005c7f;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.form-button:hover {
+  border: 1px solid #a2bdce;
+  background: #a2bdce;
+}
+
+.form-error {
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: #ff0000;
+}
+
+.form-error-msg {
+  position: absolute;
+  left: 0;
+  top: 77px;
+  color: #ff0000;
+  font-size: 14px;
+}
+
+@media (min-width: 475px) {
+  .form-form-cpf label {
+    width: auto;
+  }
+
+  .form-input-text {
+    width: 300px;
+  }
+}

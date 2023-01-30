@@ -1,0 +1,65 @@
+
+.navbar
+  position: fixed
+  inset: 0 auto 0 0
+  z-index: 10
+  height: 100vh
+  width: 80px
+  padding: 10px
+  background: #005c7f
+  overflow: hidden
+  transition: 0.5s
+
+  & .logo
+    img
+      position: relative
+      left: 50%
+      width: 100%
+      max-width: 125px
+      transform: translateX(-50%)
+
+  &.expanded
+    width: 195px
+
+  &__contents
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+  &__contents__row__icons.current
+    color: #FFFFFF
+
+  &__contents__row__icons
+    display: flex
+    align-items: flex-end
+    flex-flow: row nowrap
+    gap: 1rem
+    margin: 0 1rem
+    text-decoration: none
+    color: hsla(0, 0%, 100%, 0.6)
+    transition: 0.3s
+
+  &__contents__row__icons:hover
+    color: #FFFFFF
+    text-shadow: 0 0 5px hsla(0, 0%, 100%, 0.7)
+
+  &__contents__row__icons .menu-hamburguer
+    margin: 0 auto
+
+  &__contents__row__icons > span
+    position: relative
+    top: 2px
+    margin: 0
+    font-size: 1rem
+    transform-origin: left
+    animation: 0.3s Expand ease forwards
+
+  &__contents__row__icons mat-icon
+    font-size: 28px
+    font-weight: 100
+
+  &__profile
+    position: absolute
+    bottom: 2rem
+    right: 50%
+    transform: translateX(50%)
