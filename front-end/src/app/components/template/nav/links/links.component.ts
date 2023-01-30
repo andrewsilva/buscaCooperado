@@ -10,7 +10,7 @@ interface INavLinks {
 @Component({
   selector: 'app-links',
   templateUrl: './links.component.html',
-  styleUrls: ['../nav.component.sass', '../../../../../assets/font-icons.css']
+  styleUrls: ['../nav.component.css', '../../../../../assets/font-icons.css']
 })
 export class LinksComponent {
   @Input() expanded = false;
