@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 300px;
+  padding: 24px;
+  border: 1px solid #c0c0c0;
+  background: #FFFFFF;
+  animation: 1s SlideLeft ease forwards;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #808080;
+}
+
+.card-content-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card-content-row-icon {
+  font-size: 28px;
+  color: #808080;
+}
+
+.card-content-row-icon.suspenso {
+  color: #ff0000;
+}
+
+.card-content-row-icon.regular {
+  color: #00b300;
+}
+
+.card h5, .card h3, .card p {
+  margin: 0;
+}
+
+.card-category {
+  font-size: 14px;
+  color: #808080;
+}
+
+.card-category-content {
+  font-size: 16px;
+}
+
+.card-link-wrapper {
+  margin-top: 2rem;
+}
+
+.card-link-wrapper a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #005c7f;
+  text-decoration: none;
+}

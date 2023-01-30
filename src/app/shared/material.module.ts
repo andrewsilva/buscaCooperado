@@ -1,11 +1,77 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
-  ]
+    MatButtonModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatInputModule,
+    MatProgressSpinnerModule,
+    MatChipsModule,
+    MatSidenavModule,
+    MatCheckboxModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
+    MatTooltipModule,
+    MatSnackBarModule,
+    MatSlideToggleModule,
+    MatDividerModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatGridListModule,
+    MatStepperModule,
+    MatBadgeModule
+  ],
+  exports: [
+    MatGridListModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatInputModule,
+    MatProgressSpinnerModule,
+    MatChipsModule,
+    MatSidenavModule,
+    MatCheckboxModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
+    MatTooltipModule,
+    MatSnackBarModule,
+    MatSlideToggleModule,
+    MatDividerModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatStepperModule,
+    MatBadgeModule
+  ],
 })
-export class MaterialModule { }
+export class MaterialModule {}

@@ -1,0 +1,16 @@
+<nav class="navbar" [ngClass]="{ expanded: expand }">
+  <a href="#" class="logo">
+    <img src="../../../../assets/img/logo-ailos.png" alt="Ailos" />
+  </a>
+  <div class="navbar__contents">
+    <a href="#" class="navbar__contents__row__icons">
+      <mat-icon class="menu-hamburguer" fontSet="material-icons-round">
+        menu
+      </mat-icon>
+    </a>
+
+    <app-links class="navbar__contents" [expanded]="expand"></app-links>
+
+    <app-profile class="navbar__profile" *ngIf="width < 730" [expanded]="expand"></app-profile>
+  </div>
+</nav>

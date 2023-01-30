@@ -1,0 +1,31 @@
+<div *ngFor="let item of cardData" class="card">
+  <div>
+    <h3>{{ item?.titulo }}</h3>
+    <p class="card-subtitle">{{ item?.subtitulo }}</p>
+  </div>
+
+  <div class="card-content-row">
+    <mat-icon class="card-content-row-icon" aria-hidden="false" aria-label="Person icon">
+      {{ item?.type }}
+    </mat-icon>
+    <div>
+      <h5 class="card-category">{{ item?.categoria1 }}</h5>
+      <p class="card-category-content">{{ item?.content1 }}</p>
+    </div>
+  </div>
+
+  <div *ngIf="item?.categoria2" class="card-content-row">
+    <mat-icon class="card-content-row-icon" [class]="item?.content2 === 'Suspenso' ? 'suspenso' : 'regular'"
+      aria-hidden="false" aria-label="Situation icon">
+      {{ item?.content2 === 'Suspenso' ? 'cancel' : 'check_circle_outline' }}
+    </mat-icon>
+    <div>
+      <h5 class="card-category">{{ item?.categoria2 }}</h5>
+      <p class="card-category-content">{{ item?.content2 }}</p>
+    </div>
+  </div>
+
+  <div *ngIf="item?.command" class="card-link-wrapper">
+    <a href="#">{{ item?.command }}</a>
+  </div>
+</div>

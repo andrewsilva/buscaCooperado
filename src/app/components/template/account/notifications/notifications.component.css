@@ -1,0 +1,28 @@
+.material-icons-outlined.notification-icon {
+  position: relative;
+  top: 5px;
+  width: 30px;
+  cursor: pointer;
+  color: #005c7f;
+  font-size: 30px;
+  }
+
+  .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background: #ff0000;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-align-last: center;
+  }
+
+  .badge > span {
+  position: relative;
+  top: 2.5px;
+  }

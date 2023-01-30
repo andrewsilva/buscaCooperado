@@ -1,0 +1,28 @@
+.avatar {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background: #005c7f;
+  border: 1px solid #005c7f;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.avatar.light {
+  background: #e6eef1;
+  border: 1px solid #e6eef1;
+}
+
+.avatar.light.expand {
+  width: 70px;
+  height: 70px;
+}
+
+.avatar img {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+}

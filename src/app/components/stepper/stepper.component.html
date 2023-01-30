@@ -1,0 +1,13 @@
+<div class="progress-line">
+  <ng-container *ngFor="let step of steps">
+    <div [ngClass]="{
+      'progress-line-box': true,
+      'current': step.current,
+      'completed': step.completed
+    }">
+      <div class="ball"></div>
+      <p>{{ step.title }}</p>
+    </div>
+  </ng-container>
+  <progress [value]="progress" [max]="steps.length" class="progress-line-container"></progress>
+</div>

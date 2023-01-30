@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
