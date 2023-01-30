@@ -44,7 +44,6 @@ Na sequencia entrar no diretorio front-end e realizar o mesmo procedimento:
     
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/13222026/215571439-08dff9ee-affe-4814-bd2f-754272e3333b.gif)
 
