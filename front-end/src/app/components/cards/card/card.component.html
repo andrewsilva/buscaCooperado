@@ -15,9 +15,9 @@
   </div>
 
   <div *ngIf="item?.categoria2" class="card-content-row">
-    <mat-icon class="card-content-row-icon" [class]="item?.content2 === 'Suspenso' ? 'suspenso' : 'regular'"
+    <mat-icon class="card-content-row-icon" [class]="item?.content2 === 'Irregular' ? 'irregular' : 'regular'"
       aria-hidden="false" aria-label="Situation icon">
-      {{ item?.content2 === 'Suspenso' ? 'cancel' : 'check_circle_outline' }}
+      {{ item?.content2 === 'Irregular' ? 'cancel' : 'check_circle_outline' }}
     </mat-icon>
     <div>
       <h5 class="card-category">{{ item?.categoria2 }}</h5>

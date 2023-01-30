@@ -1,4 +1,6 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { CooperadoModule } from './pages/cooperado/cooperado.module';
 
@@ -14,12 +16,14 @@ import { SharedModule } from './shared/shared.module';
     AppComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
     NavModule,
-    CooperadoModule
+    CooperadoModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

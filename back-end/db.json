@@ -1,0 +1,18 @@
+{
+  "cooperado": [
+    {
+      "id": 90960353054,
+      "nome": "Andrew Silva",
+      "situacao": "Regular",
+      "numeroContaAplicacao": "0123456-7",
+      "numeroContaCorrente": "987654-3"
+    },
+    {
+      "id": 23600415093,
+      "nome": "Silva Andrew",
+      "situacao": "Irregular",
+      "numeroContaAplicacao": "0123456-7",
+      "numeroContaCorrente": "987654-3"
+    }
+  ]
+}

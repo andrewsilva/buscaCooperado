@@ -1,10 +1,12 @@
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CardsModule } from './../../components/cards/cards.module';
 import { StepperModule } from './../../components/stepper/stepper.module';
 import { FooterModule } from './../../components/template/footer/footer.module';
 import { HeaderModule } from './../../components/template/header/header.module';
+import { SharedModule } from './../../shared/shared.module';
 import { CooperadoComponent } from './cooperado.component';
 
 
@@ -14,10 +16,13 @@ import { CooperadoComponent } from './cooperado.component';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     HeaderModule,
     CardsModule,
     StepperModule,
-    FooterModule
+    FooterModule,
+    SharedModule,
+    HttpClientModule
   ],
   exports: [CooperadoComponent]
 })
